@@ -12,8 +12,11 @@
 		"@sveltejs/adapter-static": "^3.0.1",
 		"@sveltejs/kit": "^2.0.0",
 		"@sveltejs/vite-plugin-svelte": "^3.0.0",
-		"svelte": "^4.2.7",
+		"svelte": "^4.2.11",
 		"vite": "^5.0.3"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"d3": "^7.8.5"
+	}
 }
