@@ -21,7 +21,7 @@
   }
 
   onMount(async () => {
-    const response = await fetch('/pd_collisions_details_datasd.csv');
+    const response = await fetch('pd_collisions_details_datasd.csv');
     const accidentsCsv = await response.text();
     accidentsData = d3.csvParse(accidentsCsv, d3.autoType);
     startYear = d3.min(accidentsData, d => new Date(d.date_time).getFullYear());
